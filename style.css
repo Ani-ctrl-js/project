@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#C09C89 ;
+    display: flex;
+}
+
+#header1{
+
+width: 50%;
+display: flex;
+
+}
+.div1{
+    width: 20%;
+}
+.div2{
+    width: 50%;
+}
+
+.p1{
+  
+  font-size: 20px;
+
+}
+.span1{
+    font-size: 50px;
+    padding: 9px;
+}
+#header2{
+    display: flex;
+    align-items: center;
+   justify-content:space-between;
+   width: 50%;
+}
+
+#div3{
+    font-size: 20px;
+    color:#402311 ;
+    width: 20%;
+}
+#div3:hover{
+    opacity: 0.7;
+}
+#div6{
+    display: none;
+    background-color:#C09C89 ;
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    font-size: 20px;
+    color:#402311 ;
+}
+.ul1{
+    padding-left: 30px;
+}
+.li1{
+    padding-left: 15px;
+    line-height: 30px;
+  
+}
+#div4{
+    width: 35%;
+}
+#div5{
+    width: 20%;
+}
+.span2{
+    padding: 55px;
+}
+.a1{
+    text-decoration: none;
+    font-size: 30px;
+    color:#402311 ;
+}
+.img2,.img3{
+    border-radius: 50px;
+}
+
+
+
+
+
+#child1{
+
+width: 20%;
+height: 500px;
+background-image: url(img/105_1.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#child2{
+width: 80%;
+height: 500px;
+background-image: url(img/54700297_2.webp);
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 5px;
+}
+#div7{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 5px;
+}
+.img10{
+    margin-left: 2px;
+    border-radius: 20px;
+}
+#child3{
+    width: 40%;
+    padding: 10px 0 0 20px;
+    background-color: #926A58;
+}
+.p2{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: wheat;
+}
+#child4{
+    display: flex;
+}
+.child5{
+    width: 100%;
+   
+  background-color: #926A58;
+
+}
+.child6{
+    width: 100%;
+    
+    display: flex; 
+    justify-content: space-around;
+    
+    padding: 20px 50px 0 ;
+}
+#xohanoc{
+    width: 300px;
+    height: 200px;
+
+    
+}
+.img8{
+    border-radius: 20px;
+}
+.img8:hover{
+   
+    animation: colorAnimation 2s infinite alternate;
+}
+@keyframes colorAnimation{
+    
+    from{
+width: 300px;
+height: 200px;
+    }
+    to{
+width: 350px;
+height: 230px;
+
+    }
+}
+#nnjaran{
+    width: 300px;
+    height: 200px;
+
+}
+#heur{
+    width: 300px;
+    height: 200px;
+
+}
+.child7{
+    padding: 20px 50px 0 ;
+    width: 100%;
+   
+    display: flex; 
+    justify-content: space-around;
+}
+#paet{
+    width: 300px;
+    height: 200px;
+
+}
+#shqamutq{
+    width: 300px;
+    height: 200px;
+
+}
+#rest{
+    width: 300px;
+    height: 200px;
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:#926A58;
+}
+
+
+@media  screen and(max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #parent{
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    
+    header{
+        width: 100%;
+        height: 100px;
+        background-color:#C09C89 ;
+        display: flex;
+    }
+    
+    #header1{
+    
+    width: 50%;
+    display: flex;
+    
+    }
+    .div1{
+        width: 20%;
+    }
+    .div2{
+   
+    }
+    
+    .p1{
+      
+      font-size: 20px;
+    
+    }
+    .span1{
+        font-size: 50px;
+        padding: 9px;
+    }
+    #header2{
+        display: flex;
+        align-items: center;
+       justify-content:space-between;
+       width: 50%;
+    }
+    
+    #div3{
+        font-size: 20px;
+        color:#402311 ;
+        width: 20%;
+    }
+    #div3:hover{
+        opacity: 0.7;
+    }
+    #div6{
+        display: none;
+        background-color:#C09C89 ;
+        width: 200px;
+        height: 200px;
+        margin-left: 400px;
+        font-size: 20px;
+        color:#402311 ;
+    }
+    .ul1{
+        padding-left: 30px;
+    }
+    .li1{
+        padding-left: 15px;
+        line-height: 30px;
+      
+    }
+    #div4{
+        width: 35%;
+    }
+    #div5{
+        width: 20%;
+    }
+    .span2{
+        padding: 55px;
+    }
+    .a1{
+        text-decoration: none;
+        font-size: 30px;
+        color:#402311 ;
+    }
+    .img2,.img3{
+        border-radius: 50px;
+    }
+    
+    
+    
+    
+    
+    #child1{
+    
+    width: 20%;
+    height: 500px;
+    background-image: url(img/105_1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #child2{
+    width: 80%;
+    height: 500px;
+    background-image: url(img/54700297_2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    }
+    #div7{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin-top: 5px;
+    }
+    .img10{
+        margin-left: 2px;
+        border-radius: 20px;
+    }
+    #child3{
+        width: 40%;
+        padding: 10px 0 0 20px;
+        background-color: #926A58;
+    }
+    .p2{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        color: wheat;
+    }
+    #child4{
+        display: flex;
+    }
+    .child5{
+        width: 100%;
+       
+      background-color: #926A58;
+    
+    }
+    .child6{
+        width: 100%;
+        
+        display: flex; 
+        justify-content: space-around;
+        
+        padding: 20px 50px 0 ;
+    }
+    #xohanoc{
+        width: 300px;
+        height: 200px;
+    
+        
+    }
+    .img8{
+        border-radius: 20px;
+    }
+    .img8:hover{
+       
+        animation: colorAnimation 2s infinite alternate;
+    }
+    @keyframes colorAnimation{
+        
+        from{
+    width: 300px;
+    height: 200px;
+        }
+        to{
+    width: 350px;
+    height: 230px;
+    
+        }
+    }
+    #nnjaran{
+        width: 300px;
+        height: 200px;
+    
+    }
+    #heur{
+        width: 300px;
+        height: 200px;
+    
+    }
+    .child7{
+        padding: 20px 50px 0 ;
+        width: 100%;
+       
+        display: flex; 
+        justify-content: space-around;
+    }
+    #paet{
+        width: 300px;
+        height: 200px;
+    
+    }
+    #shqamutq{
+        width: 300px;
+        height: 200px;
+    
+    }
+    #rest{
+        width: 300px;
+        height: 200px;
+    
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color:#926A58;
+    } 
+}

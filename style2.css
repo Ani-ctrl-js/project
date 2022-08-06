@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    display: flex;
+    width: 100%;
+  position: relative;
+  flex-direction: column;
+  z-index: 0;
+}
+
+#child1{
+    width: 100%;
+    border: 1px solid black;
+ position: fixed;
+z-index: 100; 
+display: flex;
+height: 150px;
+background-color: #926A58;
+position: relative;
+
+}
+.p1{
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 7px;
+    justify-content: center;
+}
+.op1{
+    font-size: 20px;
+}
+#child2{
+   width: 100%; 
+   background-color: #926A58;
+   position: relative;
+ padding-top: 1px;
+
+ 
+}
+.div1{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left:20px ;
+    padding-right: 20px;
+    width: 70%;
+    margin-left: 200px;
+  
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:20px ;
+    padding-right: 20px;
+    width: 70%;
+    margin-left: 200px;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:20px ;
+    padding-right: 20px;
+    width: 70%;
+    margin-left: 200px;
+}
+.div4{
+    display: flex;
+    justify-content: space-between; padding-top: 20px;
+    padding-left:20px ;
+    padding-right: 20px;
+    width: 70%;
+    margin-left: 200px;
+}
+select{
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    background-color:#926A58 ;
+}
+img{
+    border-radius: 40px;
+}
